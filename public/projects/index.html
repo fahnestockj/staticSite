@@ -11,7 +11,7 @@
 <meta name="author" content="">
 <link rel="canonical" href="http://example.org/projects/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.2d6dbfc6e0f8a1db1c9d082a76dc11d094328cf63f247bbc2421dfaa7f2bb170.css" integrity="sha256-LW2/xuD4odscnQgqdtwR0JQyjPY/JHu8JCHfqn8rsXA=" rel="preload stylesheet" as="style">
-<link rel="preload" href="https://climapp.nyc3.digitaloceanspaces.com/OtherImages/FahnestockProfile2.jpg" as="image">
+<link rel="preload" href="https://climapp.nyc3.digitaloceanspaces.com/OtherImages/123FahnestockProfile.jpg" as="image">
 <link rel="icon" href="http://example.org/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://example.org/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://example.org/favicon-32x32.png">
@@ -127,8 +127,8 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://example.org/Projects" title="Projects">
-                    <span>Projects</span>
+                <a href="http://example.org/projects" title="Projects">
+                    <span class="active">Projects</span>
                 </a>
             </li>
         </ul>
@@ -141,13 +141,36 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>Stonks<div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div></h2>
+    <h2>Mappin<div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div></h2>
   </header>
   <section class="entry-content">
-    <p>I do stonks beep beep</p>
+    <p>Test blog post</p>
+  </section>
+  <footer class="entry-footer">September 12, 2021&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Mappin" href="http://example.org/projects/mappin/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>6502 Computer<div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div></h2>
+  </header>
+  <section class="entry-content">
+    <p>Used assembly programming to create a 16 bit binary to decimal converter which gathers inputs using processor interrupts and displays on a 16x2 character LCD. Design came from Ben Eater’s fantastic series on building and programming a 6502.
+Gained experience breadboarding and debugging circuits including making a debounced single step clock to debug the early stages of the 6502.</p>
+  </section>
+  <footer class="entry-footer">September 11, 2021&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to 6502 Computer" href="http://example.org/projects/6502/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Algorithimic Stock Trader<div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div></h2>
+  </header>
+  <section class="entry-content">
+    <p>Mean Reversion Strategy Currently just a simple strategy if self.SlowADX &gt; self.FastADX: self.log(&#39;TRADENOWWEEWWOOOO&#39;) if self.dataclose[0] &lt; self.BBands.bot: self.log(&#39;Buy Create, %.2f&#39; %self.dataclose[0]) self.buy() if self.position.size &lt; 0: self.buy(size = abs(self.position.size)) self.log(&#39;Buy Create: Starter, %.2f&#39; %self.dataclose[0]) #self.buy(size = self.params.starterPosition) if self.dataclose[0] &gt; self.BBands.top: self.log(&#39;Sell Created, %.2f&#39; % self.dataclose[0]) if self.position.size &gt; 0: self.sell(size = abs(self.position.size))  The strategy uses ADX a trend strength indicator to determine a window to trade then uses bollinger bands to catch a large change with the hope that a reversal occurs and the stock trends back to the mean....</p>
   </section>
   <footer class="entry-footer">May 13, 2021&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Stonks" href="http://example.org/projects/stonks/"></a>
+  <a class="entry-link" aria-label="post link to Algorithimic Stock Trader" href="http://example.org/projects/stonks/"></a>
 </article>
     </main>
     <footer class="footer">
