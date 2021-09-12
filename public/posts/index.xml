@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Fahnestockj</title>
-    <link>http://example.org/posts/</link>
+    <link>https://fahnestockj-bgdqu.ondigitalocean.app/posts/</link>
     <description>Recent content in Projects on Fahnestockj</description>
     <image>
-      <url>http://example.org/papermod-cover.png</url>
-      <link>http://example.org/papermod-cover.png</link>
+      <url>https://fahnestockj-bgdqu.ondigitalocean.app/papermod-cover.png</url>
+      <link>https://fahnestockj-bgdqu.ondigitalocean.app/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 May 2021 12:19:53 -0400</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 May 2021 12:19:53 -0400</lastBuildDate><atom:link href="https://fahnestockj-bgdqu.ondigitalocean.app/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stonks</title>
-      <link>http://example.org/posts/stonks/</link>
+      <link>https://fahnestockj-bgdqu.ondigitalocean.app/posts/stonks/</link>
       <pubDate>Thu, 13 May 2021 12:19:53 -0400</pubDate>
       
-      <guid>http://example.org/posts/stonks/</guid>
+      <guid>https://fahnestockj-bgdqu.ondigitalocean.app/posts/stonks/</guid>
       <description>I do stonks beep beep</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <link>https://fahnestockj-bgdqu.ondigitalocean.app/posts/my-first-post/</link>
       <pubDate>Thu, 13 May 2021 11:08:29 -0400</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
+      <guid>https://fahnestockj-bgdqu.ondigitalocean.app/posts/my-first-post/</guid>
       <description>Hello World What doin</description>
     </item>
     

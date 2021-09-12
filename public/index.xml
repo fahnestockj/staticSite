@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Fahnestockj</title>
-    <link>http://example.org/</link>
+    <link>https://fahnestockj-bgdqu.ondigitalocean.app/</link>
     <description>Recent content on Fahnestockj</description>
     <image>
-      <url>http://example.org/papermod-cover.png</url>
-      <link>http://example.org/papermod-cover.png</link>
+      <url>https://fahnestockj-bgdqu.ondigitalocean.app/papermod-cover.png</url>
+      <link>https://fahnestockj-bgdqu.ondigitalocean.app/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Sep 2021 14:29:48 -0400</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Sep 2021 14:29:48 -0400</lastBuildDate><atom:link href="https://fahnestockj-bgdqu.ondigitalocean.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mappin</title>
-      <link>http://example.org/projects/mappin/</link>
+      <link>https://fahnestockj-bgdqu.ondigitalocean.app/projects/mappin/</link>
       <pubDate>Sun, 12 Sep 2021 14:29:48 -0400</pubDate>
       
-      <guid>http://example.org/projects/mappin/</guid>
+      <guid>https://fahnestockj-bgdqu.ondigitalocean.app/projects/mappin/</guid>
       <description>Test blog post</description>
     </item>
     
     <item>
       <title>6502 Computer</title>
-      <link>http://example.org/projects/6502/</link>
+      <link>https://fahnestockj-bgdqu.ondigitalocean.app/projects/6502/</link>
       <pubDate>Sat, 11 Sep 2021 15:48:05 -0400</pubDate>
       
-      <guid>http://example.org/projects/6502/</guid>
+      <guid>https://fahnestockj-bgdqu.ondigitalocean.app/projects/6502/</guid>
       <description>Used assembly programming to create a 16 bit binary to decimal converter which gathers inputs using processor interrupts and displays on a 16x2 character LCD. Design came from Ben Eater&amp;rsquo;s fantastic series on building and programming a 6502.
 Gained experience breadboarding and debugging circuits including making a debounced single step clock to debug the early stages of the 6502.</description>
     </item>
     
     <item>
       <title>Algorithimic Stock Trader</title>
-      <link>http://example.org/projects/stonks/</link>
+      <link>https://fahnestockj-bgdqu.ondigitalocean.app/projects/stonks/</link>
       <pubDate>Thu, 13 May 2021 12:19:53 -0400</pubDate>
       
-      <guid>http://example.org/projects/stonks/</guid>
+      <guid>https://fahnestockj-bgdqu.ondigitalocean.app/projects/stonks/</guid>
       <description>Mean Reversion Strategy Currently just a simple strategy if self.SlowADX &amp;gt; self.FastADX: self.log(&#39;TRADENOWWEEWWOOOO&#39;) if self.dataclose[0] &amp;lt; self.BBands.bot: self.log(&#39;Buy Create, %.2f&#39; %self.dataclose[0]) self.buy() if self.position.size &amp;lt; 0: self.buy(size = abs(self.position.size)) self.log(&#39;Buy Create: Starter, %.2f&#39; %self.dataclose[0]) #self.buy(size = self.params.starterPosition) if self.dataclose[0] &amp;gt; self.BBands.top: self.log(&#39;Sell Created, %.2f&#39; % self.dataclose[0]) if self.position.size &amp;gt; 0: self.sell(size = abs(self.position.size))  The strategy uses ADX a trend strength indicator to determine a window to trade then uses bollinger bands to catch a large change with the hope that a reversal occurs and the stock trends back to the mean.</description>
     </item>
     
     <item>
       <title>Stonks</title>
-      <link>http://example.org/posts/stonks/</link>
+      <link>https://fahnestockj-bgdqu.ondigitalocean.app/posts/stonks/</link>
       <pubDate>Thu, 13 May 2021 12:19:53 -0400</pubDate>
       
-      <guid>http://example.org/posts/stonks/</guid>
+      <guid>https://fahnestockj-bgdqu.ondigitalocean.app/posts/stonks/</guid>
       <description>I do stonks beep beep</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <link>https://fahnestockj-bgdqu.ondigitalocean.app/posts/my-first-post/</link>
       <pubDate>Thu, 13 May 2021 11:08:29 -0400</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
+      <guid>https://fahnestockj-bgdqu.ondigitalocean.app/posts/my-first-post/</guid>
       <description>Hello World What doin</description>
     </item>
     
