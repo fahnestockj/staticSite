@@ -1,0 +1,140 @@
+baseURL: 'https://fahnestockj-bgdqu.ondigitalocean.app/'
+languageCode: en-us
+title: Fahnestockj
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Projects
+                  url: projects
+                  weight: 10
+
+
+
+
+
+params:
+
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+    # comments: false
+    images: ["papermod-cover.png"]
+
+    profileMode:
+        enabled: true
+        title: Jacob Fahnestock
+        imageUrl: "https://climapp.nyc3.digitaloceanspaces.com/OtherImages/123FahnestockProfile.jpg"
+        imageTitle: WAWA
+        subtitle: WIT Computer Engineering Minor Computer Science 2023           
+          
+          
+          
+          fahnestockj@wit.edu | Greater Boston | Available Jan 1st - May 9th 2022
+
+    homeInfoParams:
+        Title: "Jacob Fahnestock"
+        Content: BSCO and MCSC at WIT
+    socialIcons:
+        - name: github
+          url: "https://github.com/fahnestockj"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/jacob-fahnestock-b5235a206/"
+        - name: email
+          url: "mailto:fahnestockj@wit.edu"
+
+
+    # label:
+    #     text: "Home"
+    #     icon: icon.png
+    #     iconHeight: 35
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+
+    # assets:
+    #     favicon: "<link / abs url>"
+    #     favicon16x16: "<link / abs url>"
+    #     favicon32x32: "<link / abs url>"
+    #     apple_touch_icon: "<link / abs url>"
+    #     safari_pinned_tab: "<link / abs url>"
+
+    # cover:
+    #     hidden: true # hide everywhere but not in structured data
+    #     hiddenInList: true # hide on list pages and home
+    #     hiddenInSingle: true # hide on single page
+
+    # fuseOpts:
+    #     isCaseSensitive: false
+    #     shouldSort: true
+    #     location: 0
+    #     distance: 1000
+    #     threshold: 0.4
+    #     minMatchCharLength: 0
+    #     keys: ["title", "permalink", "summary", "content"]
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         # noClasses: false
+#         style: monokai
+
+privacy:
+    vimeo:
+        disabled: true
+        simple: true
+
+    twitter:
+        disabled: true
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: true
+        simple: true
+
+    youtube:
+        disabled: true
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
