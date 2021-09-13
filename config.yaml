@@ -18,12 +18,12 @@ minify:
 languages:
     en:
         languageName: "English"
-        weight: 1
+        weight: 50
         menu:
             main:
                 - name: Projects
                   url: projects
-                  weight: 10
+                  weight: 50
 
 
 
@@ -46,16 +46,21 @@ params:
     images: ["papermod-cover.png"]
 
     profileMode:
+        buttons: 
+            - name: Projects
+              url: "/projects"
+            
+
+
         enabled: true
         title: Jacob Fahnestock
         imageUrl: "https://climapp.nyc3.digitaloceanspaces.com/OtherImages/123FahnestockProfile.jpg"
-        imageTitle: WAWA
+        imageTitle: profilephoto
         subtitle: WIT Computer Engineering Minor Computer Science 2023           
           
           
           
           fahnestockj@wit.edu | Greater Boston | Available Jan 1st - May 9th 2022
-
     homeInfoParams:
         Title: "Jacob Fahnestock"
         Content: BSCO and MCSC at WIT
@@ -66,7 +71,7 @@ params:
           url: "https://www.linkedin.com/in/jacob-fahnestock-b5235a206/"
         - name: email
           url: "mailto:fahnestockj@wit.edu"
-
+   
 
     # label:
     #     text: "Home"
