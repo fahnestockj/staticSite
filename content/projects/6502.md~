@@ -1,0 +1,14 @@
+---
+title: "6502 Computer"
+date: 2021-09-11T15:48:05-04:00
+draft: true
+showtoc: false
+---
+
+![6502img](https://climapp.nyc3.digitaloceanspaces.com/OtherImages/image_50409985.JPG)
+
+Used assembly programming to create a 16 bit binary to decimal converter which gathers inputs using processor interrupts and displays on a 16x2 character LCD. Design came from [Ben Eater's](https://eater.net/) fantastic series on building and programming a 6502.
+
+![timerimg](https://climapp.nyc3.digitaloceanspaces.com/OtherImages/image_50392321.JPG)
+Gained experience breadboarding and debugging circuits including making a debounced single step clock and reading address lines with an Arduino to help with early debugging of the microprocessor
+
