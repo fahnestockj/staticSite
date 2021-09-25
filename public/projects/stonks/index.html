@@ -66,8 +66,8 @@
   "keywords": [
     
   ],
-  "articleBody": "Mean Reversion Strategy Currently just a simple strategy if self.SlowADX  self.FastADX: self.log('TRADENOWWEEWWOOOO') if self.dataclose[0] self.BBands.top: self.log('Sell Created, %.2f' % self.dataclose[0]) if self.position.size  0: self.sell(size = abs(self.position.size))  The strategy uses ADX a trend strength indicator to determine a window to trade then uses bollinger bands to catch a large change with the hope that a reversal occurs and the stock trends back to the mean. Mean reversion strategies work best when taking advantage of all the opportunities to trade which includes shorting from an overextension in the stock price. Unfortunately shorting requires a sizeable brokerage account to account for the risked leverage. Framework and Language Using the backtrader framework with python to backtest the strategy on historical data. ",
-  "wordCount" : "144",
+  "articleBody": "Mean Reversion Strategy Currently just a simple strategy if self.SlowADX  self.FastADX: self.log('TRADENOWWEEWWOOOO') if self.dataclose[0] self.BBands.top: self.log('Sell Created, %.2f' % self.dataclose[0]) if self.position.size  0: self.sell(size = abs(self.position.size))  The strategy uses ADX a trend strength indicator to determine a window to trade then uses bollinger bands to catch a large change with the hope that a reversal occurs and the stock trends back to the mean. Mean reversion strategies work best when taking advantage of all the opportunities to trade which includes shorting from an overextension in the stock price. Unfortunately shorting requires a sizeable brokerage account to account for the risked leverage. Framework/Language and the Struggle to Acquire Data Using the Backtrader framework with python to back test the strategy on historical data. The data was surprisingly difficult to get a hold of. Originally planned to use the Alpaca Trading Brokerage who was supplying historical data access from Polygon.io. Unfortunately, Polygon realized they were missing out on many potential customers and pulled the access to their data. The only way to get data from Polygon without paying their ~$100 a month~ subscription fee is to limit yourself to 5 API calls a minute. This made for some interesting work arounds where ",
+  "wordCount" : "227",
   "inLanguage": "en",
   "datePublished": "2021-05-13T12:19:53-04:00",
   "dateModified": "2021-05-13T12:19:53-04:00",
@@ -180,7 +180,7 @@
     <h1 class="post-title">
       Algorithimic Stock Trader<div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div>
     </h1>
-    <div class="post-meta">May 13, 2021&nbsp;·&nbsp;1 min
+    <div class="post-meta">May 13, 2021&nbsp;·&nbsp;2 min
 </div>
   </header> 
   <div class="post-content"><h3>Mean Reversion Strategy</h3>
@@ -204,8 +204,8 @@
                 self.sell(size = abs(self.position.size))
 </code></pre>
 <p>The strategy uses ADX a trend strength indicator to determine a window to trade then uses bollinger bands to catch a large change with the hope that a reversal occurs and the stock trends back to the mean. Mean reversion strategies work best when taking advantage of all the opportunities to trade which includes shorting from an overextension in the stock price. Unfortunately shorting requires a sizeable brokerage account to account for the risked leverage. </p>
-<h3>Framework and Language</h3>
-Using the backtrader framework with python to backtest the strategy on historical data.
+<h3>Framework/Language and the Struggle to Acquire Data</h3>
+Using the Backtrader framework with python to back test the strategy on historical data. The data was surprisingly difficult to get a hold of. Originally planned to use the <a href="https://app.alpaca.markets" target="_blank"> Alpaca Trading Brokerage</a> who was supplying historical data access from <a href="https://polygon.io/" target="_blank">Polygon.io</a>. Unfortunately, Polygon realized they were missing out on many potential customers and pulled the access to their data. The only way to get data from Polygon without paying their ~$100 a month~ subscription fee is to limit yourself to 5 API calls a minute. This made for some interesting work arounds where 
 
 </div>
   <footer class="post-footer">
