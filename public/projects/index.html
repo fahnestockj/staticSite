@@ -53,10 +53,6 @@
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
     }
 
 </script>
@@ -65,34 +61,6 @@
         #theme-toggle,
         .top-link {
             display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: #1d1e20;
-                --entry: #2e2e33;
-                --primary: rgba(255, 255, 255, 0.84);
-                --secondary: rgba(255, 255, 255, 0.56);
-                --tertiary: rgba(255, 255, 255, 0.16);
-                --content: rgba(255, 255, 255, 0.74);
-                --hljs-bg: #2e2e33;
-                --code-bg: #37383e;
-                --border: #333;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
         }
 
     </style>
@@ -141,11 +109,11 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>Mappin<div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div></h2>
+    <h2>Mappin</h2>
   </header>
   <section class="entry-content">
-    <p>Data Visualization Mapping Web App itliveiceflow.science
-The goal of this project is to provide easy access to the ice flow velocity data the ITS_LIVE project provides in a format that encourages exploration and curiorisity. Future goals include adding the ability to select any point on the graph to get data rather than just the couple hundred major ice flows as well as the ability to add and clear more data on the graph....</p>
+    <p>Data Visualization Mapping Web App Live at: itliveiceflow.science The goal of this project is to provide easy access to the ice flow velocity data the ITS_LIVE project provides in a format that encourages exploration and curiosity.
+Frameworks Used React with several Leaflet libraries to display the velocity mosaic and collect user inputs. The front end is displayed through a Django template which serves bundled javascript. The Django project is hosted through Gunicorn and Nginx on a Digital Ocean droplet....</p>
   </section>
   <footer class="entry-footer">September 12, 2021&nbsp;·&nbsp;1 min</footer>
   <a class="entry-link" aria-label="post link to Mappin" href="https://fahnestockj-bgdqu.ondigitalocean.app/projects/mappin/"></a>
@@ -153,7 +121,7 @@ The goal of this project is to provide easy access to the ice flow velocity data
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>6502 Computer<div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div></h2>
+    <h2>6502 Computer</h2>
   </header>
   <section class="entry-content">
     <p>Used assembly programming to create a 16 bit binary to decimal converter which gathers inputs using processor interrupts and displays on a 16x2 character LCD. Design came from Ben Eater’s fantastic series on building and programming a 6502.
@@ -165,7 +133,7 @@ Gained experience breadboarding and debugging circuits including making a deboun
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>Algorithimic Stock Trader<div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div></h2>
+    <h2>Algorithimic Stock Trader</h2>
   </header>
   <section class="entry-content">
     <p>Mean Reversion Strategy Currently just a simple strategy if self.SlowADX &gt; self.FastADX: self.log(&#39;TRADENOWWEEWWOOOO&#39;) if self.dataclose[0] &lt; self.BBands.bot: self.log(&#39;Buy Create, %.2f&#39; %self.dataclose[0]) self.buy() if self.position.size &lt; 0: self.buy(size = abs(self.position.size)) self.log(&#39;Buy Create: Starter, %.2f&#39; %self.dataclose[0]) #self.buy(size = self.params.starterPosition) if self.dataclose[0] &gt; self.BBands.top: self.log(&#39;Sell Created, %.2f&#39; % self.dataclose[0]) if self.position.size &gt; 0: self.sell(size = abs(self.position.size))  The strategy uses ADX a trend strength indicator to determine a window to trade then uses bollinger bands to catch a large change with the hope that a reversal occurs and the stock trends back to the mean....</p>

@@ -17,8 +17,8 @@
       <pubDate>Sun, 12 Sep 2021 14:29:48 -0400</pubDate>
       
       <guid>https://fahnestockj-bgdqu.ondigitalocean.app/projects/mappin/</guid>
-      <description>Data Visualization Mapping Web App itliveiceflow.science
-The goal of this project is to provide easy access to the ice flow velocity data the ITS_LIVE project provides in a format that encourages exploration and curiorisity. Future goals include adding the ability to select any point on the graph to get data rather than just the couple hundred major ice flows as well as the ability to add and clear more data on the graph.</description>
+      <description>Data Visualization Mapping Web App Live at: itliveiceflow.science The goal of this project is to provide easy access to the ice flow velocity data the ITS_LIVE project provides in a format that encourages exploration and curiosity.
+Frameworks Used React with several Leaflet libraries to display the velocity mosaic and collect user inputs. The front end is displayed through a Django template which serves bundled javascript. The Django project is hosted through Gunicorn and Nginx on a Digital Ocean droplet.</description>
     </item>
     
     <item>

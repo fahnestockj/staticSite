@@ -32,7 +32,7 @@ languages:
 params:
 
 
-    defaultTheme: auto
+    defaultTheme: light
     # disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: true
