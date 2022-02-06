@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Fahnestockj</title>
     <link>https://fahnestockj.com/</link>
     <description>Recent content on Fahnestockj</description>
+    <image>
+      <url>https://fahnestockj.com/papermod-cover.png</url>
+      <link>https://fahnestockj.com/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 Sep 2021 14:29:48 -0400</lastBuildDate><atom:link href="https://fahnestockj.com/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +17,9 @@
       <pubDate>Sun, 12 Sep 2021 14:29:48 -0400</pubDate>
       
       <guid>https://fahnestockj.com/projects/mappin/</guid>
-      <description>Data Visualization Mapping Web App itliveiceflow.science
-The goal of this project is to provide easy access to the ice flow velocity data the ITS_LIVE project provides in a format that encourages exploration and curiorisity. Future goals include adding the ability to select any point on the graph to get data rather than just the couple hundred major ice flows as well as the ability to add and clear more data on the graph.</description>
+      <description>Data Visualization Mapping Web App Currently live at itliveiceflow.science!
+The goal of this project was to provide easy access to the ice flow velocity data the ITS_LIVE project provides in a format that encourages exploration and curiosity.
+Frameworks Used React with several Leaflet libraries to display the velocity mosaic and collect user inputs. The front end is displayed through a Django template which serves the React bundle. The Django project is hosted through Gunicorn and Nginx on a Digital Ocean droplet.</description>
     </item>
     
     <item>
@@ -33,7 +38,8 @@ Gained experience breadboarding and debugging circuits including making a deboun
       <pubDate>Thu, 13 May 2021 12:19:53 -0400</pubDate>
       
       <guid>https://fahnestockj.com/projects/stonks/</guid>
-      <description>Mean Reversion Strategy Currently just a simple strategy if self.SlowADX &amp;gt; self.FastADX: self.log(&#39;TRADENOWWEEWWOOOO&#39;) if self.dataclose[0] &amp;lt; self.BBands.bot: self.log(&#39;Buy Create, %.2f&#39; %self.dataclose[0]) self.buy() if self.position.size &amp;lt; 0: self.buy(size = abs(self.position.size)) self.log(&#39;Buy Create: Starter, %.2f&#39; %self.dataclose[0]) #self.buy(size = self.params.starterPosition) if self.dataclose[0] &amp;gt; self.BBands.top: self.log(&#39;Sell Created, %.2f&#39; % self.dataclose[0]) if self.position.size &amp;gt; 0: self.sell(size = abs(self.position.size))  The strategy uses ADX a trend strength indicator to determine a window to trade then uses bollinger bands to catch a large change with the hope that a reversal occurs and the stock trends back to the mean.</description>
+      <description>A Flawless Mean Reversion Strategy 🚀 Key Indicators  ADX - Average Directional Index  Used to determine a time window to trade   BBands - Bollinger Bands   Used to catch overextensions (positive or negative) inside a time window
+ if self.SlowADX &amp;gt; self.FastADX: self.log(&#39;TRADENOWWEEWWOOOO&#39;) if self.dataclose[0] &amp;lt; self.BBands.bot: self.log(&#39;Buy Create, %.2f&#39; %self.dataclose[0]) self.buy() if self.position.size &amp;lt; 0: self.buy(size = abs(self.position.size)) self.log(&#39;Short closed: %.2f&#39; %self.dataclose[0]) self.buy(size = self.</description>
     </item>
     
     <item>
