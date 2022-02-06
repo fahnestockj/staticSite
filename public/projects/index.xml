@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Fahnestockj</title>
-    <link>https://fahnestockj-bgdqu.ondigitalocean.app/projects/</link>
+    <link>https://fahnestockj.com/projects/</link>
     <description>Recent content in Projects on Fahnestockj</description>
-    <image>
-      <url>https://fahnestockj-bgdqu.ondigitalocean.app/papermod-cover.png</url>
-      <link>https://fahnestockj-bgdqu.ondigitalocean.app/papermod-cover.png</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Sep 2021 14:29:48 -0400</lastBuildDate><atom:link href="https://fahnestockj-bgdqu.ondigitalocean.app/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Sep 2021 14:29:48 -0400</lastBuildDate><atom:link href="https://fahnestockj.com/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mappin</title>
-      <link>https://fahnestockj-bgdqu.ondigitalocean.app/projects/mappin/</link>
+      <link>https://fahnestockj.com/projects/mappin/</link>
       <pubDate>Sun, 12 Sep 2021 14:29:48 -0400</pubDate>
       
-      <guid>https://fahnestockj-bgdqu.ondigitalocean.app/projects/mappin/</guid>
-      <description>Data Visualization Mapping Web App Live at: itliveiceflow.science The goal of this project is to provide easy access to the ice flow velocity data the ITS_LIVE project provides in a format that encourages exploration and curiosity.
-Frameworks Used React with several Leaflet libraries to display the velocity mosaic and collect user inputs. The front end is displayed through a Django template which serves bundled javascript. The Django project is hosted through Gunicorn and Nginx on a Digital Ocean droplet.</description>
+      <guid>https://fahnestockj.com/projects/mappin/</guid>
+      <description>Data Visualization Mapping Web App itliveiceflow.science
+The goal of this project is to provide easy access to the ice flow velocity data the ITS_LIVE project provides in a format that encourages exploration and curiorisity. Future goals include adding the ability to select any point on the graph to get data rather than just the couple hundred major ice flows as well as the ability to add and clear more data on the graph.</description>
     </item>
     
     <item>
       <title>6502 Computer</title>
-      <link>https://fahnestockj-bgdqu.ondigitalocean.app/projects/6502/</link>
+      <link>https://fahnestockj.com/projects/6502/</link>
       <pubDate>Sat, 11 Sep 2021 15:48:05 -0400</pubDate>
       
-      <guid>https://fahnestockj-bgdqu.ondigitalocean.app/projects/6502/</guid>
+      <guid>https://fahnestockj.com/projects/6502/</guid>
       <description>Used assembly programming to create a 16 bit binary to decimal converter which gathers inputs using processor interrupts and displays on a 16x2 character LCD. Design came from Ben Eater&amp;rsquo;s fantastic series on building and programming a 6502.
 Gained experience breadboarding and debugging circuits including making a debounced single step clock to debug the early stages of the 6502.</description>
     </item>
     
     <item>
       <title>Algorithimic Stock Trader</title>
-      <link>https://fahnestockj-bgdqu.ondigitalocean.app/projects/stonks/</link>
+      <link>https://fahnestockj.com/projects/stonks/</link>
       <pubDate>Thu, 13 May 2021 12:19:53 -0400</pubDate>
       
-      <guid>https://fahnestockj-bgdqu.ondigitalocean.app/projects/stonks/</guid>
+      <guid>https://fahnestockj.com/projects/stonks/</guid>
       <description>Mean Reversion Strategy Currently just a simple strategy if self.SlowADX &amp;gt; self.FastADX: self.log(&#39;TRADENOWWEEWWOOOO&#39;) if self.dataclose[0] &amp;lt; self.BBands.bot: self.log(&#39;Buy Create, %.2f&#39; %self.dataclose[0]) self.buy() if self.position.size &amp;lt; 0: self.buy(size = abs(self.position.size)) self.log(&#39;Buy Create: Starter, %.2f&#39; %self.dataclose[0]) #self.buy(size = self.params.starterPosition) if self.dataclose[0] &amp;gt; self.BBands.top: self.log(&#39;Sell Created, %.2f&#39; % self.dataclose[0]) if self.position.size &amp;gt; 0: self.sell(size = abs(self.position.size))  The strategy uses ADX a trend strength indicator to determine a window to trade then uses bollinger bands to catch a large change with the hope that a reversal occurs and the stock trends back to the mean.</description>
     </item>
     
