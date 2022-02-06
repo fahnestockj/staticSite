@@ -1,4 +1,4 @@
-baseURL: 'https://fahnestockj-bgdqu.ondigitalocean.app/'
+baseURL: 'https://fahnestockj.com'
 languageCode: en-us
 title: Fahnestockj
 theme: PaperMod
@@ -60,7 +60,7 @@ params:
           
           
           
-          fahnestockj@wit.edu | Greater Boston | Available Jan 1st - May 9th 2022
+          fahnestockj@wit.edu | Greater Boston  
     homeInfoParams:
         Title: "Jacob Fahnestock"
         Content: BSCO and MCSC at WIT
