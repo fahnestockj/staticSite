@@ -1,7 +1,8 @@
 ---
 title: "Immutability and React!"
 date: 2022-02-12T10:02:24-05:00
-draft: true
+draft: false
+showtoc: false
 ---
 >## What is it
 > Mutability in Javascript refers to the ability to change the state of an object after its creation. 
