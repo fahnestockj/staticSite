@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Projects on Fahnestockj</title>
+    <title>Posts on Fahnestockj</title>
     <link>https://fahnestockj.com/posts/</link>
-    <description>Recent content in Projects on Fahnestockj</description>
+    <description>Recent content in Posts on Fahnestockj</description>
     <image>
       <url>https://fahnestockj.com/papermod-cover.png</url>
       <link>https://fahnestockj.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 May 2021 12:19:53 -0400</lastBuildDate><atom:link href="https://fahnestockj.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Feb 2022 10:02:24 -0500</lastBuildDate><atom:link href="https://fahnestockj.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Stonks</title>
-      <link>https://fahnestockj.com/posts/stonks/</link>
-      <pubDate>Thu, 13 May 2021 12:19:53 -0400</pubDate>
+      <title>Immutability and React!</title>
+      <link>https://fahnestockj.com/posts/immutability/</link>
+      <pubDate>Sat, 12 Feb 2022 10:02:24 -0500</pubDate>
       
-      <guid>https://fahnestockj.com/posts/stonks/</guid>
-      <description>I do stonks beep beep</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://fahnestockj.com/posts/my-first-post/</link>
-      <pubDate>Thu, 13 May 2021 11:08:29 -0400</pubDate>
-      
-      <guid>https://fahnestockj.com/posts/my-first-post/</guid>
-      <description>Hello World What doin</description>
+      <guid>https://fahnestockj.com/posts/immutability/</guid>
+      <description>What is it Mutability in Javascript refers to the ability to change the state of an object after its creation.
+ In Javascript some examples of immutable objects are language primitives. As the lowest atomic level of the language, primitives are immutable which allows easy comparison between values.
+For example string primitives cannot be modified after they&amp;rsquo;re created.
+const string1 = &amp;#39;foo&amp;#39; string1.concat(&amp;#39;bar&amp;#39;) console.log(string1) //foo string1 is not actually modified by its method, instead it the method returns a new string with the concatenation complete.</description>
     </item>
     
   </channel>

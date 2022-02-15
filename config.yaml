@@ -24,7 +24,9 @@ languages:
                 - name: Projects
                   url: projects
                   weight: 50
-
+                - name: Posts
+                  url: posts
+                  weight: 50
 
 
 
@@ -49,7 +51,8 @@ params:
         buttons: 
             - name: Projects
               url: "/projects"
-            
+            - name: Posts
+              url: "/posts"
 
 
         enabled: true
