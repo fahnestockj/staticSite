@@ -75,8 +75,8 @@ Clearly for React immutability is a net positive as in many ways it matches the 
 
 Redux is a frontend state management framework designed with immutable data in mind. It takes advantage of the shallow equality checking to offer benefits like simpler programming and debugging with a ~time traveling~ debugger. Redux performs state management similar to an event sourced system where state is controlled by events (redux calls them actions) fed into reducers (pure functions with no side effects.) Event sourcing is a larger discussion coming soon 🤌.
 
->Immutability can bring increased performance to your app, and leads to simpler programming and debugging, as data that never changes is easier to reason about than data that is free to be changed arbitrarily throughout your app.
-> ### -Our god Dan Abramov 
+>Immutability can bring increased performance to your app, and leads to simpler programming and debugging, as data that never changes is easier to reason about than data that is free to be changed arbitrarily throughout your app.  
+> -*Our god Dan Abramov*
 
 There's a lot of hype surrounding immutability which is dangerous as like everything it can introduce a lot of unnecessary complexity if misused. It's important to consider some [contrary views as well](https://desalasworks.com/article/immutability-in-javascript-a-contrarian-view/) and consider if it's worth the tradeoffs.
 
