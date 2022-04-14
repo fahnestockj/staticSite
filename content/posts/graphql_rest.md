@@ -87,7 +87,7 @@ Lets define a couple resource objects for this blog app.
 }
 ```
 ### Rest API Example 
-In order to fetch the necessary info to display the page from the mockups all three resources need to be fetched individually. [^1]
+In order to fetch the necessary info to display the page from the mockups all three resources need to be fetched individually. Also fetch is [soon to be a part of Nodejs](https://news.ycombinator.com/item?id=30161626) and the built in http module can no longer keep me up at night and ruin my technical interviews 🙏.
 ```ts
 //Restful endpoints
 //api/v1/posts/post1
@@ -115,7 +115,7 @@ Notice:
 These problems make it difficult to efficiently display data from multiple resources on one page.
 
 ### Introducing GraphQL
-GraphQL remedies these problems by adding a layer of abstraction over traditional HTTP requests. With a fully fledged GraphQL schema only one api endpoint is needed to gather all the data you need. Requests are customized using the query language to tailor fit the data you need cutting away the bloat. The schema enforces types, and create an interface layer between the frontend and backend.
+GraphQL remedies these problems by adding a layer of abstraction over traditional HTTP requests. With a fully fledged GraphQL schema only one api endpoint is needed to gather all the data you need. Requests are customized using the query language to tailor fit the data you need cutting away the bloat. The schema enforces types, and creates an interface layer between the frontend and backend.
 
 Many graphQL tutorials push for [schema driven development](https://blog.logrocket.com/code-first-vs-schema-first-development-graphql/) which enables both frontend and backend development to happen asynchronously once the schema has been agreed upon. 
 
@@ -129,7 +129,7 @@ fieldName: (parent, args, context, info) => data;
 //context: shareable information across the current operation (usually authentication for reads and writes)
 ```
 
-When you create a GraphQL query or mutation the server furfills the request by calling all the related resolvers and only returning once the resolvers **resolve.** 
+When you create a GraphQL query or mutation the server fulfills the request by calling all the related resolvers and only returning once the resolvers **resolve.** 
 
 ### Tradeoffs
  
@@ -139,7 +139,5 @@ When you create a GraphQL query or mutation the server furfills the request by c
 
 Abstraction in software lives on a spectrum between being useful and flexible. Generally frameworks tend towards being as flexible as possible while a package like dayJS tend towards being useful for a specific use case. React is an example of a very flexible framework which has spawned other frameworks just to enforce more opinionated useful features for example Vercel's NextJS. [Learn more about the spectrum here!](https://youtu.be/mVVNJKv9esE)
 
-Relating this back to the API structures REST is a very flexible architecture which enforces minimal standards and focuses on remaining scalable. GraphQL enforces some very useful patterns like having a central typesafe schema and involving the relationships of resources in the fetching process.For these benefits it loses flexibility such as HTTP caching, and the required format of resolvers.
+Relating this back to the API structures REST is a very flexible architecture which enforces minimal standards and focuses on remaining scalable. GraphQL enforces some very useful patterns like having a central typesafe schema and involving the relationships of resources in the fetching process. For these benefits it loses flexibility such as HTTP caching, and the required format of resolvers.
 
-
-[^1]: Fetch is [soon to be a part of Nodejs](https://news.ycombinator.com/item?id=30161626) and the built in http module can no longer keep me up at night and ruin my technical interviews
