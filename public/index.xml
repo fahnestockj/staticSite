@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Feb 2022 10:02:24 -0500</lastBuildDate><atom:link href="https://fahnestockj.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Mar 2022 10:44:54 -0500</lastBuildDate><atom:link href="https://fahnestockj.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Another GraphQL Rest Comparison</title>
+      <link>https://fahnestockj.com/posts/graphql_rest/</link>
+      <pubDate>Sat, 05 Mar 2022 10:44:54 -0500</pubDate>
+      
+      <guid>https://fahnestockj.com/posts/graphql_rest/</guid>
+      <description>What is REST?  Representation State Transfer an architectural style which aims to be lightweight, scalable, and flexible. RESTful API&amp;rsquo;s follow this style by setting constraints like:
+ clients and servers communicate resources with HTTP requests requests should be stateless meaning they only using the information on the request to determine the response   What is GraphQL?  GraphQL is a widely used query language for APIs which treats the data as a graph of relationships rather than a more &amp;ldquo;linear&amp;rdquo; collection of data.</description>
+    </item>
+    
     <item>
       <title>Immutability and React!</title>
       <link>https://fahnestockj.com/posts/immutability/</link>

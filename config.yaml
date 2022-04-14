@@ -33,7 +33,6 @@ languages:
 
 params:
 
-
     defaultTheme: light
     # disableThemeToggle: true
     ShowShareButtons: false

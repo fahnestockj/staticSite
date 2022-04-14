@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fahnestockj.com/</loc>
-    <lastmod>2022-02-12T10:02:24-05:00</lastmod>
+    <loc>https://fahnestockj.com/posts/graphql_rest/</loc>
+    <lastmod>2022-03-05T10:44:54-05:00</lastmod>
   </url><url>
-    <loc>https://fahnestockj.com/posts/immutability/</loc>
-    <lastmod>2022-02-12T10:02:24-05:00</lastmod>
+    <loc>https://fahnestockj.com/</loc>
+    <lastmod>2022-03-05T10:44:54-05:00</lastmod>
   </url><url>
     <loc>https://fahnestockj.com/posts/</loc>
+    <lastmod>2022-03-05T10:44:54-05:00</lastmod>
+  </url><url>
+    <loc>https://fahnestockj.com/posts/immutability/</loc>
     <lastmod>2022-02-12T10:02:24-05:00</lastmod>
   </url><url>
     <loc>https://fahnestockj.com/projects/mappin/</loc>
