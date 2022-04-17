@@ -6,7 +6,7 @@ showtoc: false
 ---
 
 > ## What is REST?
-Representation State Transfer an architectural style which aims to be lightweight, scalable, and flexible. RESTful API's follow this style by setting constraints like:
+Representation State Transfer an architectural style for APIs which aims to be lightweight, scalable, and flexible. RESTful API's follow this style by setting constraints like:
 * clients and servers communicate resources with HTTP requests
 * requests should be stateless meaning they only using the information on the request to determine the response
 > ## What is GraphQL?
