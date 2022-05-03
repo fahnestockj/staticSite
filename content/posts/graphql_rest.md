@@ -1,5 +1,5 @@
 ---
-title: "wIlL gRapHql fInaLly RePlaCe ReST?"
+title: "GraphQL and REST"
 date: 2022-03-05T10:44:54-05:00
 draft: false
 showtoc: false
