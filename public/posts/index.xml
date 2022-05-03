@@ -10,9 +10,28 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Mar 2022 10:44:54 -0500</lastBuildDate><atom:link href="https://fahnestockj.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Apr 2022 09:41:27 -0400</lastBuildDate><atom:link href="https://fahnestockj.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Another GraphQL Rest Comparison</title>
+      <title>Event Sourcing</title>
+      <link>https://fahnestockj.com/posts/eventsourcing/</link>
+      <pubDate>Sun, 24 Apr 2022 09:41:27 -0400</pubDate>
+      
+      <guid>https://fahnestockj.com/posts/eventsourcing/</guid>
+      <description>What if we just recorded how everything happens Cool idea! Lots of pros</description>
+    </item>
+    
+    <item>
+      <title>Abstraction in Software</title>
+      <link>https://fahnestockj.com/posts/abstractioninsoftware/</link>
+      <pubDate>Sun, 24 Apr 2022 09:41:20 -0400</pubDate>
+      
+      <guid>https://fahnestockj.com/posts/abstractioninsoftware/</guid>
+      <description>The goal of this post is to unpack Cheng Lou&amp;rsquo;s On the Spectrum of Abstraction Talk given at React-Europe in 2016.
+The more I learn about the various competing javascript tools like frameworks, libraries, etc the more confused I am by how there isn&amp;rsquo;t a set guide on if you want A use B. As a beginner most tools are entirely unclear on what their purpose is and why/how they help.</description>
+    </item>
+    
+    <item>
+      <title>wIlL gRapHql fInaLly RePlaCe ReST?</title>
       <link>https://fahnestockj.com/posts/graphql_rest/</link>
       <pubDate>Sat, 05 Mar 2022 10:44:54 -0500</pubDate>
       

@@ -1,5 +1,5 @@
 ---
-title: "Another GraphQL Rest Comparison"
+title: "wIlL gRapHql fInaLly RePlaCe ReST?"
 date: 2022-03-05T10:44:54-05:00
 draft: false
 showtoc: false
@@ -86,8 +86,8 @@ Lets define a couple resource objects for this blog app.
   }
 }
 ```
-### Rest API Example 
-In order to fetch the necessary info to display the page from the mockups all three resources need to be fetched individually. Also fetch is [soon to be a part of Nodejs](https://news.ycombinator.com/item?id=30161626) and the built in http module can no longer keep me up at night and ruin my technical interviews 🙏.
+In order to fetch the necessary info to display the page from the mockups all three resources need to be fetched individually.
+
 ```ts
 //Restful endpoints
 //api/v1/posts/post1
@@ -105,6 +105,8 @@ const organization1 = await fetch(`/api/v1/organizations/${user1.relationships.o
 
   //now we can finally render the page
 ```
+[^1]
+
 Notice:
 * the chain of requests needed on the frontend to fetch the required data 
   
@@ -133,7 +135,7 @@ When you create a GraphQL query or mutation the server fulfills the request by c
 
 ### Tradeoffs
  
- The primary issue for these resolvers is setting up effective caching. Since all requests are through POST normal HTTP caching isn't available. Through some [shenanigans](https://blog.logrocket.com/http-caching-graphql/) you can use GET, but it's not ideal. Services like Apollo offer caching through using a unique global identifier which again is a workaround. 
+ The primary issue for these resolvers is setting up effective caching. Since all requests are through POST normal HTTP caching isn't available. Through some [shenanigans](https://blog.logrocket.com/http-caching-graphql/) you can use GET, but it adds complexity. 
 
 ### Abstraction in Software
 
@@ -141,3 +143,5 @@ Abstraction in software lives on a spectrum between being useful and flexible. G
 
 Relating this back to the API structures REST is a very flexible architecture which enforces minimal standards and focuses on remaining scalable. GraphQL enforces some very useful patterns like having a central typesafe schema and involving the relationships of resources in the fetching process. For these benefits it loses flexibility such as HTTP caching, and the required format of resolvers.
 
+
+[^1]: Fetch is [soon to be a part of Nodejs](https://news.ycombinator.com/item?id=30161626) and the built in http module can no longer keep me up at night and ruin my technical interviews 🙏.
