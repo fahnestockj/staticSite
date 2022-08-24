@@ -2,6 +2,7 @@
 title: "Effectiveness at a Startup"
 date: 2022-08-24T08:54:43-04:00
 draft: false
+showtoc: false
 ---
 
 I've been working at Quanta Technologies a small scrappy startup for the last 8 months. The team has varied from 3-5 members meaning I've gotten to know my coworkers very well, and am intimately close with the software we're building.
