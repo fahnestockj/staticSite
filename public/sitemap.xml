@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fahnestockj.com/posts/abstractioninsoftware/</loc>
-    <lastmod>2022-04-24T09:41:20-04:00</lastmod>
+    <loc>https://fahnestockj.com/posts/effectivenessatastartup/</loc>
+    <lastmod>2022-08-24T08:54:43-04:00</lastmod>
   </url><url>
     <loc>https://fahnestockj.com/</loc>
-    <lastmod>2022-04-24T09:41:20-04:00</lastmod>
+    <lastmod>2022-08-24T08:54:43-04:00</lastmod>
   </url><url>
     <loc>https://fahnestockj.com/posts/</loc>
+    <lastmod>2022-08-24T08:54:43-04:00</lastmod>
+  </url><url>
+    <loc>https://fahnestockj.com/posts/abstractioninsoftware/</loc>
     <lastmod>2022-04-24T09:41:20-04:00</lastmod>
   </url><url>
     <loc>https://fahnestockj.com/posts/graphql_rest/</loc>

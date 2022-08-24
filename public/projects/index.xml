@@ -38,8 +38,8 @@ Gained experience breadboarding and debugging circuits including making a deboun
       <pubDate>Thu, 13 May 2021 12:19:53 -0400</pubDate>
       
       <guid>https://fahnestockj.com/projects/stonks/</guid>
-      <description>A Flawless Mean Reversion Strategy 🚀 Key Indicators  ADX - Average Directional Index  Used to determine a time window to trade   BBands - Bollinger Bands   Used to catch overextensions (positive or negative) inside a time window
- if self.SlowADX &amp;gt; self.FastADX: self.log(&#39;TRADENOWWEEWWOOOO&#39;) if self.dataclose[0] &amp;lt; self.BBands.bot: self.log(&#39;Buy Create, %.2f&#39; %self.dataclose[0]) self.buy() if self.position.size &amp;lt; 0: self.buy(size = abs(self.position.size)) self.log(&#39;Short closed: %.2f&#39; %self.dataclose[0]) self.buy(size = self.</description>
+      <description>A Flawless Mean Reversion Strategy 🚀 Key Indicators ADX - Average Directional Index Used to determine a time window to trade BBands - Bollinger Bands Used to catch overextensions (positive or negative) inside a time window
+if self.SlowADX &amp;gt; self.FastADX: self.log(&#39;TRADENOWWEEWWOOOO&#39;) if self.dataclose[0] &amp;lt; self.BBands.bot: self.log(&#39;Buy Create, %.2f&#39; %self.dataclose[0]) self.buy() if self.position.size &amp;lt; 0: self.buy(size = abs(self.position.size)) self.log(&#39;Short closed: %.2f&#39; %self.dataclose[0]) self.buy(size = self.position.size) if self.dataclose[0] &amp;gt; self.BBands.top: self.log(&#39;Sell Created, %.</description>
     </item>
     
   </channel>
