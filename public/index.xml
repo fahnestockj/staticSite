@@ -44,17 +44,6 @@ const string1 = &amp;#39;foo&amp;#39; string1.concat(&amp;#39;bar&amp;#39;) cons
     </item>
     
     <item>
-      <title>Mappin</title>
-      <link>https://fahnestockj.com/projects/mappin/</link>
-      <pubDate>Sun, 12 Sep 2021 14:29:48 -0400</pubDate>
-      
-      <guid>https://fahnestockj.com/projects/mappin/</guid>
-      <description>Data Visualization Mapping Web App Currently live at itliveiceflow.science!
-The goal of this project was to provide easy access to the ice flow velocity data the ITS_LIVE project provides in a format that encourages exploration and curiosity.
-Frameworks Used React with several Leaflet libraries to display the velocity mosaic and collect user inputs. The front end is displayed through a Django template which serves the React bundle. The Django project is hosted through Gunicorn and Nginx on a Digital Ocean droplet.</description>
-    </item>
-    
-    <item>
       <title>6502 Computer</title>
       <link>https://fahnestockj.com/projects/6502/</link>
       <pubDate>Sat, 11 Sep 2021 15:48:05 -0400</pubDate>
@@ -62,16 +51,6 @@ Frameworks Used React with several Leaflet libraries to display the velocity mos
       <guid>https://fahnestockj.com/projects/6502/</guid>
       <description>Used assembly programming to create a 16 bit binary to decimal converter which gathers inputs using processor interrupts and displays on a 16x2 character LCD. Design came from Ben Eater&amp;rsquo;s fantastic series on building and programming a 6502.
 Gained experience breadboarding and debugging circuits including making a debounced single step clock to debug the early stages of the 6502.</description>
-    </item>
-    
-    <item>
-      <title>Algorithimic Stock Trader</title>
-      <link>https://fahnestockj.com/projects/stonks/</link>
-      <pubDate>Thu, 13 May 2021 12:19:53 -0400</pubDate>
-      
-      <guid>https://fahnestockj.com/projects/stonks/</guid>
-      <description>A Flawless Mean Reversion Strategy 🚀 Key Indicators ADX - Average Directional Index Used to determine a time window to trade BBands - Bollinger Bands Used to catch overextensions (positive or negative) inside a time window
-if self.SlowADX &amp;gt; self.FastADX: self.log(&#39;TRADENOWWEEWWOOOO&#39;) if self.dataclose[0] &amp;lt; self.BBands.bot: self.log(&#39;Buy Create, %.2f&#39; %self.dataclose[0]) self.buy() if self.position.size &amp;lt; 0: self.buy(size = abs(self.position.size)) self.log(&#39;Short closed: %.2f&#39; %self.dataclose[0]) self.buy(size = self.position.size) if self.dataclose[0] &amp;gt; self.BBands.top: self.log(&#39;Sell Created, %.</description>
     </item>
     
   </channel>
