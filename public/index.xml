@@ -40,7 +40,7 @@ The more I learn about the various competing javascript tools like frameworks, l
       <description>What is it Mutability in Javascript refers to the ability to change the state of an object after its creation.
 In Javascript some examples of immutable objects are language primitives. As the lowest atomic level of the language, primitives are immutable which allows easy comparison between values.
 For example string primitives cannot be modified after they&amp;rsquo;re created.
-const string1 = &amp;#39;foo&amp;#39; string1.concat(&amp;#39;bar&amp;#39;) console.log(string1) //foo string1 is not actually modified by its method, instead it the method returns a new string with the concatenation complete.</description>
+const string1 = &amp;#39;foo&amp;#39; string1.concat(&amp;#39;bar&amp;#39;) console.log(string1) //foo string1 is not actually modified by its method, instead the method returns a new string with the concatenation complete.</description>
     </item>
     
     <item>

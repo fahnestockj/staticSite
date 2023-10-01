@@ -23,8 +23,4 @@ Sometimes the uncertainty of an ill-defined/murky problem can be frustrating. I'
 
 My natural response to these situations is some anger and frustration since there's a feeling of failure in the solution I've dedicated hours of work towards. I want to be able to predict these things ahead of time, and fully understand the problem before making the solution. Reality is iteration is the most **effective** path forward and it naturally guides you towards the important problems that need to be solved. 
 
->"Often you don't recognize if a problem is really worth your time until you've made a bad solution for it."
->
-> -*Me to myself every week*
-
 Quanta cultivates appreciation for iteration in meetings called Retros (Agile Retrospectives) where the whole team talks through what has gone right and wrong, and what can be done to change the way we work in the future. At Quanta we have our biggest breakthroughs at Retros mostly because we connect the emotional side of our work with the results of our work. As a team we recognize the frustrations of iterating, of ill-defined/murky problems, and frame what solutions we need to dedicate our time to.
