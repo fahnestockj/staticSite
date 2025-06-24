@@ -2,16 +2,12 @@
 <html lang="en">
 
 <head>
-    
-
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <link rel="stylesheet" href="/index.css">
-    </link>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
-        rel="stylesheet">
-    <title>fahnestockj</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Jacob Fahnestock Personal Site</title>
     
 <script>
   // paricle system heavily inspired by https://css-tricks.com/adding-particle-effects-to-dom-elements-with-canvas/
@@ -31,8 +27,9 @@
     this.remainingLife = this.life;
 
     // This function will be called by our animation logic later on
-    this.draw = ctx => {
+    this.draw = (ctx, timestamp) => {
       let p = this;
+      
 
       if (this.remainingLife > 0
         && this.radius > 0) {
@@ -51,12 +48,15 @@
         ctx.fill();
 
         // Update the particle's location and life
-        p.remainingLife--;
+        p.remainingLife = p.remainingLife - timestamp * 0.001;
+        
         p.radius -= 0.01;
         p.startX += p.speed.x;
         p.startY += p.speed.y;
-        p.speed.y += 0.05;
-
+        p.speed.y += timestamp * 0.00001;
+        if(p.startY > 150) {
+          this.remainingLife = 0
+        }
       }
     }
   }
@@ -76,10 +76,7 @@
     const canvasCtx = firepitCanvas.getContext("2d");
     const fireAnimation = document.getElementById("fire-animation");
     const fireAnimationTransform = document.getElementById("fire-animation-transform");
-    // fireAnimation.endElement()
-    // fireAnimationTransform.endElement()
-    // fireAnimation.beginElement()
-    // fireAnimationTransform.beginElement()
+
     if (fire.style.display === "block") {
       return
     }
@@ -111,7 +108,7 @@
 
       // Draw all of our particles in their new location
       for (let i = 0; i < particles.length; i++) {
-        particles[i].draw(canvasCtx);
+        particles[i].draw(canvasCtx, timestamp);
 
         // Simple way to clean up if the last particle is done animating
         if (i === particles.length - 1) {
@@ -164,36 +161,18 @@
 
   }
 </script>
-
-    <script>
-        // Create WebSocket connection.
-        const socket = new WebSocket("ws://localhost:3000");
-        // Connection opened
-        socket.addEventListener("open", (event) => {
-            socket.send("Hello Server!");
-        });
-
-        // Listen for messages
-        socket.addEventListener("message", (event) => {
-            console.log("Message from server ", event.data);
-            socket.close()
-            window.location.reload()
-        });
-    </script>
 </head>
 
 <body class="color-scheme-dark h-vh ">
     
 <div class="header-nav">
   <div>
-    <!-- TODO: site title in settings -->
     <a class="text-off-white unstyled-link" href="">
-      <h1 class="mx-2">fahnestockj</h1>
+      <h1 class="mx-2"></h1>
     </a>
   </div>
   <div class="row h-full">
     <!-- Github -->
-    <!-- TODO: social links in settings -->
     <a href="https://github.com/fahnestockj" class="svg-icon mr-1" aria-label="Github Profile">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
         <path
@@ -251,8 +230,6 @@
                   <animate id="fire-animation" attributeName="d" values="M70 200 h60 l-30 -90z; M70 7200 h60 l-30 -90z"
                     dur="100s" begin="indefinite" repeatCount="indefinite" />
                 </path>
-                <animateTransform id="fire-animation-transform" attributeName="transform" attributeType="XML"
-                  type="translate" values="0 0; 0 -7000" dur="100s" repeatCount=indefinite begin="indefinite" />
               </g>
             </svg>
           </div>
@@ -267,7 +244,7 @@
         <div class="card-body px-2 pb-2">
           <div class="header-card-content">
             <p>
-              I'm a software engineer based out of Boston, MA. I build web applications and tools that help people.
+              I'm a software engineer based out of Boston, MA.
             </p>
           </div>
         </div>
@@ -319,7 +296,6 @@
             <h3>Dev Tools</h3>
           </div>
           <div class="card-body pb-2 px-2">
-            <!-- ™ //TODO rocket emoji and trademark -->
             <div class="card-content">
               Building a CLI tool to generate static sites from markdown files. It's called <a
                 href="https://github.com/fahnestockj/megalopa">Megalopa</a>.
@@ -337,7 +313,7 @@
 
     <div id="footer" class="footer py-2">
         
-        &copy; Copyright 🦀 2024.
+        <!-- &copy; Copyright 🦀 2024. -->
         
     </div>
 </body>
