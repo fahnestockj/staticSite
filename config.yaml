@@ -31,7 +31,7 @@ languages:
 
 
 params:
-    # defaultTheme: light
+    defaultTheme: auto
     # disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: true
@@ -48,22 +48,21 @@ params:
         buttons: 
             - name: Projects
               url: "/projects"
-            - name: Posts
-              url: "/posts"
-
+            - name: Resume
+              url: "/resume"
 
         enabled: true
         title: Jacob Fahnestock
         imageUrl: "https://climapp.nyc3.digitaloceanspaces.com/headshots/headshot.jpg"
         imageTitle: profilephoto
-        subtitle: Software Engineer
-          
-          
-          
-          jrfz31@gmail.com | Greater Boston  
+        subtitle: Founding Software Engineer at **[Quanta](https://quantamarkets.com)**
+
+
+
+            {{< fire >}}
     homeInfoParams:
         Title: "Jacob Fahnestock"
-        Content: BSCO and MCSC at WIT
+        Content: Founding Software Engineer at Quanta
     socialIcons:
         - name: github
           url: "https://github.com/fahnestockj"
@@ -73,21 +72,6 @@ params:
           url: "mailto:jrfz31@gmail.com"
    
 
-    # label:
-    #     text: "Home"
-    #     icon: icon.png
-    #     iconHeight: 35
-
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
-
-    # assets:
-    #     favicon: "<link / abs url>"
-    #     favicon16x16: "<link / abs url>"
-    #     favicon32x32: "<link / abs url>"
-    #     apple_touch_icon: "<link / abs url>"
-    #     safari_pinned_tab: "<link / abs url>"
 
     # cover:
     #     hidden: true # hide everywhere but not in structured data
@@ -108,10 +92,10 @@ taxonomies:
     tag: tags
     series: series
 
-markup:
-    goldmark:
-        renderer:
-            unsafe: true
+# markup:
+#     goldmark:
+#         renderer:
+#             unsafe: true
 #     highlight:
 #         # anchorLineNos: true
 #         codeFences: true
@@ -125,7 +109,7 @@ privacy:
         disabled: true
         simple: true
 
-    twitter:
+    x:
         disabled: true
         enableDNT: true
         simple: true
