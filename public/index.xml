@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Jacob Fahnestock</title>
+    <link>https://fahnestockj.com/</link>
+    <description>Recent content on Jacob Fahnestock</description>
+    <image>
+      <title>Jacob Fahnestock</title>
+      <url>https://fahnestockj.com/papermod-cover.png</url>
+      <link>https://fahnestockj.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Jun 2025 12:54:56 -0400</lastBuildDate>
+    <atom:link href="https://fahnestockj.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B2B Fintech SaaS for Oil &amp; Gas Hedging</title>
+      <link>https://fahnestockj.com/portfolio/quanta/</link>
+      <pubDate>Fri, 27 Jun 2025 12:54:56 -0400</pubDate>
+      <guid>https://fahnestockj.com/portfolio/quanta/</guid>
+      <description>&lt;h3 id=&#34;quanta--founding-software-engineer&#34;&gt;&lt;a href=&#34;https://www.quantamarkets.com/&#34;&gt;Quanta&lt;/a&gt; – Founding Software Engineer&lt;/h3&gt;
+&lt;p&gt;Aug 2023 – Present (Previously interned Jan 2022 – Aug 2023)&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Fintech Dashboard&#34; loading=&#34;lazy&#34; src=&#34;https://fahnestockj.com/quanta_dashboard.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As a founding engineer at Quanta Markets, I&amp;rsquo;ve spent the past few years building a modern SaaS platform that simplifies hedge management for oil and gas companies. Quanta replaces expensive, consultant-led workflows with self-serve software tailored to the needs of E&amp;amp;P finance teams. It automates deal tracking, mark-to-market valuations, discrepancy resolution, and report generation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Web Native Browse Tool for the NASA JPL ITS LIVE Project’s Ice Velocity Dataset</title>
+      <link>https://fahnestockj.com/portfolio/its_live_browse_tool/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 -0400</pubDate>
+      <guid>https://fahnestockj.com/portfolio/its_live_browse_tool/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Published in:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1109/UEMCON59035.2023.10316074&#34;&gt;IEEE UEMCON 2023 — Best Paper Award&lt;/a&gt;
+&lt;img alt=&#34;Ice velocity browse tool&#34; loading=&#34;lazy&#34; src=&#34;https://fahnestockj.com/mappin.jpeg&#34;&gt;
+To help climate scientists and non-technical users alike access decades of satellite-derived ice velocity data, I collaborated with NASA’s ITS_LIVE team to rebuild their glacier data visualization tool from the ground up. The original tool was based on Jupyter Notebooks, which required launching a new kernel and performing significant server-side computation for every user. This architecture imposed serious scalability limitations and high hosting costs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6502 Computer</title>
+      <link>https://fahnestockj.com/portfolio/6502/</link>
+      <pubDate>Sat, 11 Sep 2021 15:48:05 -0400</pubDate>
+      <guid>https://fahnestockj.com/portfolio/6502/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;6502img&#34; loading=&#34;lazy&#34; src=&#34;https://climapp.nyc3.digitaloceanspaces.com/OtherImages/image_50409985.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Used assembly programming to create a 16 bit binary to decimal converter which gathers inputs using processor interrupts and displays on a 16x2 character LCD. Design came from &lt;a href=&#34;https://eater.net/&#34;&gt;Ben Eater&amp;rsquo;s&lt;/a&gt; fantastic series on building and programming a 6502.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;timerimg&#34; loading=&#34;lazy&#34; src=&#34;https://climapp.nyc3.digitaloceanspaces.com/OtherImages/image_50392321.JPG&#34;&gt;
+Gained experience breadboarding and debugging circuits including making a debounced single step clock to debug the early stages of the 6502.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

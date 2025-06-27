@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Web Native Browse Tool for the NASA JPL ITS LIVE Project’s Ice Velocity Dataset | Jacob Fahnestock</title>
+<meta name="keywords" content="">
+<meta name="description" content="Published in: IEEE UEMCON 2023 — Best Paper Award
+
+To help climate scientists and non-technical users alike access decades of satellite-derived ice velocity data, I collaborated with NASA’s ITS_LIVE team to rebuild their glacier data visualization tool from the ground up. The original tool was based on Jupyter Notebooks, which required launching a new kernel and performing significant server-side computation for every user. This architecture imposed serious scalability limitations and high hosting costs.">
+<meta name="author" content="">
+<link rel="canonical" href="https://fahnestockj.com/portfolio/its_live_browse_tool/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://fahnestockj.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://fahnestockj.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://fahnestockj.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://fahnestockj.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://fahnestockj.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://fahnestockj.com/portfolio/its_live_browse_tool/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://fahnestockj.com/portfolio/its_live_browse_tool/">
+  <meta property="og:site_name" content="Jacob Fahnestock">
+  <meta property="og:title" content="Web Native Browse Tool for the NASA JPL ITS LIVE Project’s Ice Velocity Dataset">
+  <meta property="og:description" content="Published in: IEEE UEMCON 2023 — Best Paper Award To help climate scientists and non-technical users alike access decades of satellite-derived ice velocity data, I collaborated with NASA’s ITS_LIVE team to rebuild their glacier data visualization tool from the ground up. The original tool was based on Jupyter Notebooks, which required launching a new kernel and performing significant server-side computation for every user. This architecture imposed serious scalability limitations and high hosting costs.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="portfolio">
+    <meta property="article:published_time" content="2024-10-01T00:00:00-04:00">
+    <meta property="article:modified_time" content="2024-10-01T00:00:00-04:00">
+      <meta property="og:image" content="https://fahnestockj.com/papermod-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://fahnestockj.com/papermod-cover.png">
+<meta name="twitter:title" content="Web Native Browse Tool for the NASA JPL ITS LIVE Project’s Ice Velocity Dataset">
+<meta name="twitter:description" content="Published in: IEEE UEMCON 2023 — Best Paper Award
+
+To help climate scientists and non-technical users alike access decades of satellite-derived ice velocity data, I collaborated with NASA’s ITS_LIVE team to rebuild their glacier data visualization tool from the ground up. The original tool was based on Jupyter Notebooks, which required launching a new kernel and performing significant server-side computation for every user. This architecture imposed serious scalability limitations and high hosting costs.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Portfolio",
+      "item": "https://fahnestockj.com/portfolio/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Web Native Browse Tool for the NASA JPL ITS LIVE Project’s Ice Velocity Dataset",
+      "item": "https://fahnestockj.com/portfolio/its_live_browse_tool/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Web Native Browse Tool for the NASA JPL ITS LIVE Project’s Ice Velocity Dataset",
+  "name": "Web Native Browse Tool for the NASA JPL ITS LIVE Project’s Ice Velocity Dataset",
+  "description": "Published in: IEEE UEMCON 2023 — Best Paper Award To help climate scientists and non-technical users alike access decades of satellite-derived ice velocity data, I collaborated with NASA’s ITS_LIVE team to rebuild their glacier data visualization tool from the ground up. The original tool was based on Jupyter Notebooks, which required launching a new kernel and performing significant server-side computation for every user. This architecture imposed serious scalability limitations and high hosting costs.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Published in: IEEE UEMCON 2023 — Best Paper Award To help climate scientists and non-technical users alike access decades of satellite-derived ice velocity data, I collaborated with NASA’s ITS_LIVE team to rebuild their glacier data visualization tool from the ground up. The original tool was based on Jupyter Notebooks, which required launching a new kernel and performing significant server-side computation for every user. This architecture imposed serious scalability limitations and high hosting costs.\nI developed a fully client-side JavaScript application that enables interactive exploration of the ITS_LIVE dataset directly in the browser. By shifting all compute to the user’s device and directly accessing the dataset from AWS S3, Mappin eliminated the need for an intermediary data server. This architecture not only made the tool significantly more scalable but also reduced dramatically reduced latency. Time-to-first-byte (TTFB) dropped by over 120x, and accessibility/performance audits using Google Lighthouse showed a 40% improvement, with scores consistently above 92 across performance, accessibility, and best practices.\nBuilt with React, Leaflet, and Zarr.js, Mappin handles on-the-fly coordinate projection, finds the closest available velocity time series, and renders interactive, shareable charts via stateful URLs. It’s a responsive single-page app (SPA) designed to work across devices and network conditions. Thanks to its static build, it can be distributed via CDNs or hosted directly alongside the data in an S3 bucket, drastically simplifying deployment and operations.\nMappin now serves as a more accessible entry point to NASA’s global cryosphere data, and lays the groundwork for future public-facing climate research tools. You can explore the ice flow history of Alaska’s Malaspina Glacier here.\n",
+  "wordCount" : "262",
+  "inLanguage": "en",
+  "image": "https://fahnestockj.com/papermod-cover.png","datePublished": "2024-10-01T00:00:00-04:00",
+  "dateModified": "2024-10-01T00:00:00-04:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://fahnestockj.com/portfolio/its_live_browse_tool/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jacob Fahnestock",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://fahnestockj.com/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://fahnestockj.com/" accesskey="h" title="Jacob Fahnestock (Alt + H)">Jacob Fahnestock</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://fahnestockj.com/portfolio" title="Portfolio">
+                    <span>Portfolio</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://fahnestockj.com/fahnestockj_cv.pdf" title="Resume">
+                    <span>Resume</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://fahnestockj.com/">Home</a>&nbsp;»&nbsp;<a href="https://fahnestockj.com/portfolio/">Portfolio</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Web Native Browse Tool for the NASA JPL ITS LIVE Project’s Ice Velocity Dataset
+    </h1>
+    <div class="post-meta"><span title='2024-10-01 00:00:00 -0400 EDT'>October 1, 2024</span>&nbsp;·&nbsp;2 min
+
+</div>
+  </header> 
+  <div class="post-content"><p><strong>Published in:</strong> <a href="https://doi.org/10.1109/UEMCON59035.2023.10316074">IEEE UEMCON 2023 — Best Paper Award</a>
+<img alt="Ice velocity browse tool" loading="lazy" src="/mappin.jpeg">
+To help climate scientists and non-technical users alike access decades of satellite-derived ice velocity data, I collaborated with NASA’s ITS_LIVE team to rebuild their glacier data visualization tool from the ground up. The original tool was based on Jupyter Notebooks, which required launching a new kernel and performing significant server-side computation for every user. This architecture imposed serious scalability limitations and high hosting costs.</p>
+<p>I developed a fully client-side JavaScript application that enables interactive exploration of the ITS_LIVE dataset directly in the browser. By shifting all compute to the user’s device and directly accessing the dataset from AWS S3, Mappin eliminated the need for an intermediary data server. This architecture not only made the tool significantly more scalable but also reduced dramatically reduced latency. Time-to-first-byte (TTFB) dropped by over <strong>120x</strong>, and accessibility/performance audits using Google Lighthouse showed a <strong>40% improvement</strong>, with scores consistently above 92 across performance, accessibility, and best practices.</p>
+<p>Built with React, Leaflet, and Zarr.js, Mappin handles on-the-fly coordinate projection, finds the closest available velocity time series, and renders interactive, shareable charts via stateful URLs. It&rsquo;s a responsive single-page app (SPA) designed to work across devices and network conditions. Thanks to its static build, it can be distributed via CDNs or hosted directly alongside the data in an S3 bucket, drastically simplifying deployment and operations.</p>
+<p>Mappin now serves as a more accessible entry point to NASA’s global cryosphere data, and lays the groundwork for future public-facing climate research tools. You can <a href="https://its-live.jpl.nasa.gov/app/index.html?lat=60.08611&amp;lon=-140.46227&amp;c=b&amp;lat=60.03192&amp;lon=-140.53711&amp;c=g&amp;lat=59.9592&amp;lon=-140.62294&amp;c=r&amp;z=9&amp;x=1984-12-31&amp;x=2023-12-31&amp;y=-423&amp;y=4468">explore the ice flow history of Alaska’s Malaspina Glacier here</a>.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://fahnestockj.com/portfolio/quanta/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>B2B Fintech SaaS for Oil &amp; Gas Hedging</span>
+  </a>
+  <a class="next" href="https://fahnestockj.com/portfolio/6502/">
+    <span class="title">Next »</span>
+    <br>
+    <span>6502 Computer</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://fahnestockj.com/">Jacob Fahnestock</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
