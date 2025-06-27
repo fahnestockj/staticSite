@@ -20,11 +20,11 @@ languages:
         weight: 50
         menu:
             main:
-                - name: Projects
-                  url: projects
+                - name: Portfolio
+                  url: portfolio
                   weight: 50
-                - name: Posts
-                  url: posts
+                - name: Resume
+                  url: "/fahnestockj_cv.pdf"
                   weight: 50
 
 
@@ -46,20 +46,16 @@ params:
 
     profileMode:
         buttons: 
-            - name: Projects
-              url: "/projects"
+            - name: Portfolio
+              url: "/portfolio"
             - name: Resume
-              url: "/resume"
+              url: "/fahnestockj_cv.pdf"
 
         enabled: true
         title: Jacob Fahnestock
         imageUrl: "https://climapp.nyc3.digitaloceanspaces.com/headshots/headshot.jpg"
         imageTitle: profilephoto
         subtitle: Founding Software Engineer at **[Quanta](https://quantamarkets.com)**
-
-
-
-            {{< fire >}}
     homeInfoParams:
         Title: "Jacob Fahnestock"
         Content: Founding Software Engineer at Quanta
